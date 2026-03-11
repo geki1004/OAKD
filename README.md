@@ -7,7 +7,7 @@
 
 - [Rice seedling and weed](https://drive.google.com/drive/folders/10uUdejgVJJzJ1T28I3FwPQ_fdwu9S8Zr?usp=drive_link)
 
-# KDOSS-Net weight
+# OAKD weight
 - [CWFID](https://drive.google.com/drive/folders/1iEhRfY47hOYQ0TxX_mlKXB34hilMCmHO?usp=drive_link)
 
 - [Bonirob](https://drive.google.com/drive/folders/1l10k3Jq5W2fZ5PSW-SY1RqMNajpLtDwR?usp=drive_link)
