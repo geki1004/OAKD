@@ -1,0 +1,1 @@
+from .model import DDOS_Net, SDS_Net

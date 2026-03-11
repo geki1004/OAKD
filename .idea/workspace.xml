@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0e80677-60d9-41b0-b3c8-0a2c580c9a81" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/train_KD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/seg_train_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/seg_train_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/cgnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deeplabv3_plus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/segnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/unet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;geki1004&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chaeyeongyun/semantic_segmentation_pytorch.git&quot;,
+    &quot;accountId&quot;: &quot;0be6f8c0-829b-4fc8-856a-883391e8252c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2oPh27tutnvK4GY7LQise2YX0rC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.FLOPs.executor": "Run",
+    "Python.KD_train.executor": "Run",
+    "Python.KD_train_Q.executor": "Run",
+    "Python.T_train.executor": "Run",
+    "Python.cross_train.executor": "Run",
+    "Python.cross_train_kd.executor": "Run",
+    "Python.detect2LLM_3.executor": "Run",
+    "Python.gradcam.executor": "Run",
+    "Python.gt_trans.executor": "Run",
+    "Python.imr_target.executor": "Run",
+    "Python.inference.executor": "Run",
+    "Python.inference_fp16.executor": "Run",
+    "Python.make_label.executor": "Run",
+    "Python.model-yong.executor": "Run",
+    "Python.munet.executor": "Run",
+    "Python.new.executor": "Run",
+    "Python.para.executor": "Run",
+    "Python.pvalue.executor": "Run",
+    "Python.skeleton.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_Q.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.train_2nd.executor": "Run",
+    "Python.train_Q.executor": "Run",
+    "Python.train_imr.executor": "Run",
+    "Python.train_test_2nd.executor": "Run",
+    "Python.train_test_2nd_KD.executor": "Run",
+    "Python.train_test_2nd_KD_QAT.executor": "Run",
+    "Python.train_test_2nd_KD_QAT_FX.executor": "Run",
+    "Python.train_test_2nd_skeleton.executor": "Run",
+    "Python.trans.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/shc01/PycharmProjects/OAKD",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+      <recent name="C:\Users\shc01\PycharmProjects\ob_segmentation" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="QAT_segmentation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="shc" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26574.90" />
+        <option value="bundled-python-sdk-c1fac28bca04-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26574.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="e0e80677-60d9-41b0-b3c8-0a2c580c9a81" name="변경" comment="" />
+      <created>1730776907707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730776907707</updated>
+      <workItem from="1730776908853" duration="158511000" />
+      <workItem from="1732517964054" duration="11000" />
+      <workItem from="1733124786190" duration="4586000" />
+      <workItem from="1733217196236" duration="24000" />
+      <workItem from="1733217358299" duration="15000" />
+      <workItem from="1733281832161" duration="19000" />
+      <workItem from="1733635880627" duration="4223000" />
+      <workItem from="1733640532226" duration="356000" />
+      <workItem from="1733644555218" duration="9807000" />
+      <workItem from="1733714822049" duration="9211000" />
+      <workItem from="1733743580907" duration="10097000" />
+      <workItem from="1733964008306" duration="2000" />
+      <workItem from="1733995604474" duration="17000" />
+      <workItem from="1734073754331" duration="32000" />
+      <workItem from="1734231618353" duration="114000" />
+      <workItem from="1734241625695" duration="1722000" />
+      <workItem from="1734269887275" duration="4666000" />
+      <workItem from="1734336395817" duration="10000" />
+      <workItem from="1734577661142" duration="2341000" />
+      <workItem from="1734598504443" duration="2051000" />
+      <workItem from="1734669200517" duration="766000" />
+      <workItem from="1734671947784" duration="304000" />
+      <workItem from="1734673084504" duration="101974000" />
+      <workItem from="1735548810455" duration="1070000" />
+      <workItem from="1735612410951" duration="1332000" />
+      <workItem from="1735995700680" duration="1393000" />
+      <workItem from="1736038832834" duration="3523000" />
+      <workItem from="1736060384865" duration="79453000" />
+      <workItem from="1736920275150" duration="2442000" />
+      <workItem from="1736926018484" duration="22256000" />
+      <workItem from="1737096186984" duration="12948000" />
+      <workItem from="1737154999221" duration="47611000" />
+      <workItem from="1737604817594" duration="131770000" />
+      <workItem from="1738814295349" duration="6482000" />
+      <workItem from="1738912725914" duration="18180000" />
+      <workItem from="1739422131913" duration="122127000" />
+      <workItem from="1741572384482" duration="25101000" />
+      <workItem from="1741931760612" duration="49882000" />
+      <workItem from="1742889523616" duration="23385000" />
+      <workItem from="1743145834198" duration="32260000" />
+      <workItem from="1744097626740" duration="160000" />
+      <workItem from="1744097876961" duration="2871000" />
+      <workItem from="1744165980246" duration="41345000" />
+      <workItem from="1744608773164" duration="26271000" />
+      <workItem from="1745224551064" duration="1728000" />
+      <workItem from="1745386578761" duration="2000" />
+      <workItem from="1745485530102" duration="13000" />
+      <workItem from="1745551339966" duration="819000" />
+      <workItem from="1745552648384" duration="16322000" />
+      <workItem from="1745818983455" duration="28211000" />
+      <workItem from="1745919051258" duration="34953000" />
+      <workItem from="1746514878798" duration="12925000" />
+      <workItem from="1747368656782" duration="4652000" />
+      <workItem from="1747713860094" duration="89031000" />
+      <workItem from="1748577548505" duration="88000" />
+      <workItem from="1748577662518" duration="109779000" />
+      <workItem from="1750843676651" duration="2687000" />
+      <workItem from="1750902925459" duration="12835000" />
+      <workItem from="1751002231277" duration="35200000" />
+      <workItem from="1751266290188" duration="328000" />
+      <workItem from="1751267372770" duration="5233000" />
+      <workItem from="1751454766154" duration="6900000" />
+      <workItem from="1752028278168" duration="1243000" />
+      <workItem from="1752549068713" duration="14024000" />
+      <workItem from="1752991349008" duration="1229000" />
+      <workItem from="1752992593470" duration="35693000" />
+      <workItem from="1753330213234" duration="38103000" />
+      <workItem from="1753842255228" duration="76496000" />
+      <workItem from="1754965559472" duration="5971000" />
+      <workItem from="1755051612221" duration="29049000" />
+      <workItem from="1756175601971" duration="6663000" />
+      <workItem from="1756286814864" duration="5645000" />
+      <workItem from="1756547104254" duration="6314000" />
+      <workItem from="1757046982056" duration="17150000" />
+      <workItem from="1757400838221" duration="1347000" />
+      <workItem from="1757470410907" duration="25677000" />
+      <workItem from="1757846402534" duration="22000" />
+      <workItem from="1759283680577" duration="23591000" />
+      <workItem from="1760562840066" duration="25221000" />
+      <workItem from="1761118382534" duration="32828000" />
+      <workItem from="1761482464610" duration="21689000" />
+      <workItem from="1761722625216" duration="297000" />
+      <workItem from="1761722929711" duration="1240000" />
+      <workItem from="1761793949908" duration="12964000" />
+      <workItem from="1762168099527" duration="21071000" />
+      <workItem from="1762863123633" duration="2992000" />
+      <workItem from="1763002126075" duration="102959000" />
+      <workItem from="1764140957139" duration="19787000" />
+      <workItem from="1764640986030" duration="38446000" />
+      <workItem from="1764760535033" duration="85226000" />
+      <workItem from="1765375536686" duration="31749000" />
+      <workItem from="1766729061187" duration="442000" />
+      <workItem from="1766729825213" duration="19026000" />
+      <workItem from="1767773413523" duration="17400000" />
+      <workItem from="1768363864392" duration="114251000" />
+      <workItem from="1770106413760" duration="39000" />
+      <workItem from="1770264370087" duration="11406000" />
+      <workItem from="1770292408062" duration="54000" />
+      <workItem from="1770334429004" duration="30833000" />
+      <workItem from="1770769386781" duration="1644000" />
+      <workItem from="1770960823836" duration="29332000" />
+      <workItem from="1771588022669" duration="20791000" />
+      <workItem from="1773212059081" duration="2672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ob_segmentation$T_train.coverage" NAME="T_train 커버리지 결과" MODIFIED="1737636495623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$munet.coverage" NAME="munet 커버리지 결과" MODIFIED="1736945849267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$test_Q.coverage" NAME="test_Q 커버리지 결과" MODIFIED="1744706070927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$model_yong.coverage" NAME="model-yong 커버리지 결과" MODIFIED="1744264022866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$para.coverage" NAME="para 커버리지 결과" MODIFIED="1744608271916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$KD_train.coverage" NAME="KD_train 커버리지 결과" MODIFIED="1743339910369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$train_test_2nd_KD_QAT_FX.coverage" NAME="train_test_2nd_KD_QAT_FX 커버리지 결과" MODIFIED="1765529021058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$imr_target.coverage" NAME="imr_target 커버리지 결과" MODIFIED="1738135729429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$inference.coverage" NAME="inference 커버리지 결과" MODIFIED="1764741362606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$train.coverage" NAME="train 커버리지 결과" MODIFIED="1744259849383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$gt_trans.coverage" NAME="gt_trans 커버리지 결과" MODIFIED="1741332283816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$train_test_2nd_KD.coverage" NAME="train_test_2nd_KD 커버리지 결과" MODIFIED="1770080788512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$new.coverage" NAME="new 커버리지 결과" MODIFIED="1746778701258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$gradcam.coverage" NAME="gradcam 커버리지 결과" MODIFIED="1741494927348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$trans.coverage" NAME="trans 커버리지 결과" MODIFIED="1741330910541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$train_2nd.coverage" NAME="train_2nd 커버리지 결과" MODIFIED="1751437635901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$FLOPs.coverage" NAME="FLOPs 커버리지 결과" MODIFIED="1764741330173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$train_imr.coverage" NAME="train_imr 커버리지 결과" MODIFIED="1738135370577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$make_label.coverage" NAME="make_label 커버리지 결과" MODIFIED="1770606972228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$pvalue.coverage" NAME="pvalue 커버리지 결과" MODIFIED="1741943086971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$train_Q.coverage" NAME="train_Q 커버리지 결과" MODIFIED="1745902872367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$cross_train.coverage" NAME="cross_train 커버리지 결과" MODIFIED="1771679111825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$KD_train.coverage" NAME="KD_train 커버리지 결과" MODIFIED="1763004163563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$train_Q.coverage" NAME="train_Q 커버리지 결과" MODIFIED="1744706190730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$KD_train_Q.coverage" NAME="KD_train_Q 커버리지 결과" MODIFIED="1746514962940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$train_test_2nd_skeleton.coverage" NAME="train_test_2nd_skeleton 커버리지 결과" MODIFIED="1756547350293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$inference.coverage" NAME="inference 커버리지 결과" MODIFIED="1741673090148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$cross_train_kd.coverage" NAME="cross_train_kd 커버리지 결과" MODIFIED="1770986315834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$train.coverage" NAME="train 커버리지 결과" MODIFIED="1752583590932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$para.coverage" NAME="para 커버리지 결과" MODIFIED="1764741180905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$train_test_2nd_KD_QAT.coverage" NAME="train_test_2nd_KD_QAT 커버리지 결과" MODIFIED="1765239226346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$train_test_2nd.coverage" NAME="train_test_2nd 커버리지 결과" MODIFIED="1770092516978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$test.coverage" NAME="test 커버리지 결과" MODIFIED="1770960975550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$detect2LLM_3.coverage" NAME="detect2LLM_3 커버리지 결과" MODIFIED="1741933711272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$inference_fp16.coverage" NAME="inference_fp16 커버리지 결과" MODIFIED="1764740292700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\shc01\PycharmProjects\QAT_segmentation" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$test.coverage" NAME="test 커버리지 결과" MODIFIED="1744686391586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ob_segmentation$FLOPs.coverage" NAME="FLOPs 커버리지 결과" MODIFIED="1744265044809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QAT_segmentation$skeleton.coverage" NAME="skeleton 커버리지 결과" MODIFIED="1756706972508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
